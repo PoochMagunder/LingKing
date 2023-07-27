@@ -1,6 +1,9 @@
 .Nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     background-color: #1C3041;
-    height: 300px;
+    height: fit-content;
 }
 
 .logo {
@@ -8,19 +11,37 @@
     width: 350px;
     border: black;
     border-style: double;
+    background: lightblue;
 }
 
 .nav-container {
     float: right;
     font-size: auto;
     margin-top: 200px;
-    margin-right: 100px;
+}
+
+.nav-button {
+    color: black;
+}
+
+.nav-links :hover{
+    color: darkslategrey;
 }
 
 .nav-link {
+    font-size: large;
     margin: 5px;
     color: whitesmoke;
     text-decoration: none;
+}
+
+
+@media screen and (max-width: 757px) {
+    .nav-container {
+        margin-top: auto;
+        margin-bottom: 30px;
+    }
+    
 }
 
 @media screen and (max-width: 415px) {
@@ -32,4 +53,11 @@
     .logo {
         width: 185px;
     }
+}
+
+@media screen and (max-width: 360px) {
+    .nav-link {
+        font-size: medium;
+    }
+    
 }
