@@ -1,0 +1,24 @@
+.Nav {
+    background-color: #1C3041;
+    height: 300px;
+}
+
+.logo {
+    margin: 30px;
+    width: 350px;
+    border: black;
+    border-style: double;
+}
+
+.nav-container.container {
+    float: right;
+    font-size: x-large;
+    margin-top: 200px;
+    margin-right: 100px;
+}
+
+.nav-link {
+    margin: 5px;
+    color: whitesmoke;
+    text-decoration: none;
+}
