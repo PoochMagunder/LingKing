@@ -10,9 +10,9 @@
     border-style: double;
 }
 
-.nav-container.container {
+.nav-container {
     float: right;
-    font-size: x-large;
+    font-size: auto;
     margin-top: 200px;
     margin-right: 100px;
 }
@@ -21,4 +21,15 @@
     margin: 5px;
     color: whitesmoke;
     text-decoration: none;
+}
+
+@media screen and (max-width: 415px) {
+    .nav-container {
+        max-width: fit-content;
+        margin: 10px;
+    }
+
+    .logo {
+        width: 185px;
+    }
 }
