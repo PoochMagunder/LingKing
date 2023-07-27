@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <div className="footer-wrapper" bg='dark' >
             <div className="links-container">
-                <p>Follow Us on our Socials!</p>
+                <p>"Catch" us on our Socials!</p>
             <a href="https://www.instagram.com/devoneadie"
                 className="instagram link">
                 <FontAwesomeIcon icon={faInstagram} size="2x" />
