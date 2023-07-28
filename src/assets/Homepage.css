@@ -139,7 +139,7 @@
         text-align: center;
         margin: 10px;
         width: 95%;
-        height: 400px;
+        height: fit-content;
     }
 
     .boat-image-aside {
@@ -171,7 +171,7 @@
         text-align: center;
         margin: 10px;
         width: 95%;
-        height: 400px;
+        height: fit-content;
 
     }
 }
