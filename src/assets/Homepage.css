@@ -175,3 +175,22 @@
 
     }
 }
+
+@media screen and (max-width: 360px) {
+
+    .boat-image-aside {
+        width: 99%;
+    }
+    
+    .about-header {
+        width: 96%;
+    }
+
+    .family-image {
+        width: 98%;
+    }
+
+    .about-family-header {
+        width: 96%;
+    }
+}
