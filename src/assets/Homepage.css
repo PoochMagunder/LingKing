@@ -42,7 +42,6 @@
 .boat-image-aside {
     height: fit-content;
     width: 50%;
-    margin-bottom: 0;
 }
 
 .boat-image {
@@ -70,9 +69,9 @@
 }
 
 .family-image-aside {
-    text-align: right;
     height: fit-content;
-    width: 50%;
+    width: 49%;
+    margin-right: 6px;
 
 }
 
@@ -92,6 +91,7 @@
 }
 
 .about-family-header {
+    margin-left: -13px;
     padding: 5px;
     text-align: left;
     font-size: 18px;
@@ -136,8 +136,9 @@
     }
 
     .about-us-p {
+        text-align: center;
         margin: 10px;
-        width: 100%;
+        width: 95%;
         height: 400px;
     }
 
@@ -155,10 +156,11 @@
     }
 
     .family-image-aside {
-        width: 100%;
+        width: 100vw;
     }
 
     .about-family-header {
+        margin-left: 0;
         margin-top: -5px;
         width: 100%;
         border-right: #1C3041;
@@ -166,8 +168,9 @@
     }
 
     .about-family-p {
+        text-align: center;
         margin: 10px;
-        width: 100%;
+        width: 95%;
         height: 400px;
 
     }
