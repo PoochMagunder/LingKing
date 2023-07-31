@@ -8,7 +8,6 @@
 }
 
 .about-header {
-    margin-left: 5px;
     padding: 5px;
     font-size: 18px;
     width: 50%;
@@ -39,24 +38,9 @@
     height: fit-content;
 }
 
-.boat-image-aside {
-    height: fit-content;
-    width: 50%;
-}
-
-.boat-image {
-    filter: contrast(1.3);
-    filter: brightness(1.1);
-    filter: saturate(1.5);
-    width: 100%;
-    height: fit-content;
-    border: #1C3041;
-    border-style: solid;
-}
-
 .filler {
     position: relative;
-    background:#1C3041;
+    background: #1C3041;
     width: 100%;
     height: 100px;
 }
@@ -116,6 +100,21 @@
     height: fit-content;
 }
 
+@media screen and (max-width:1000px) {
+
+    .about-family-header {
+        margin-left: 0;
+    }
+
+    .about-us {
+        width: 100%;
+    }
+
+    .about-family {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 412px) {
 
     .about-wrapper {
@@ -142,9 +141,6 @@
         height: fit-content;
     }
 
-    .boat-image-aside {
-        width: 100%;
-    }
 
     .family-wrapper {
         flex-direction: column;
@@ -155,9 +151,7 @@
         width: 100%;
     }
 
-    .family-image-aside {
-        width: 100vw;
-    }
+
 
     .about-family-header {
         margin-left: 0;
@@ -178,19 +172,12 @@
 
 @media screen and (max-width: 360px) {
 
-    .boat-image-aside {
-        width: 99%;
-    }
-    
+
     .about-header {
         width: 96%;
     }
 
     .family-image {
         width: 98%;
-    }
-
-    .about-family-header {
-        width: 96%;
     }
 }

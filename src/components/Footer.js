@@ -10,11 +10,11 @@ const Footer = () => {
         <div className="footer-wrapper" bg='dark' >
             <div className="links-container">
                 <p>"Catch" us on our Socials!</p>
-            <a href=""
+            <a href="https://www.instagram.com/lingkingfishing/"
                 className="instagram link">
                 <FontAwesomeIcon icon={faInstagram} size="2x" />
             </a>
-            <a href=""
+            <a href="https://www.facebook.com/LingKingFishing"
                 className="facebook link">
                 <FontAwesomeIcon icon={faFacebook} size="2x" />
             </a>
