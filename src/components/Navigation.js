@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Navbar, Nav, Container } from 'react-bootstrap';
-import '../assets/Navigation.css';
-import logo from '../assets/img/logo.png'
+import '../assets/css/Navigation.css';
+import logo from '../assets/img/logo.jpg'
 import NavbarToggle from 'react-bootstrap/esm/NavbarToggle';
 import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
+import Footer from '../components/Footer';
 
 const NavApp = () => {
 
@@ -21,15 +22,8 @@ const NavApp = () => {
                 <Container className='nav-container'>
                     <NavbarCollapse className='nav-collapes' id='navbar'>
                         <Nav className='nav-links ml-auto'>
-
-                            <Nav.Link as={Link} to='/'>
-                                About Us
-                            </Nav.Link>
-                            <Nav.Link as={Link} to='/products'>
-                                Our Product
-                            </Nav.Link>
-                            <Nav.Link as={Link} to='/merchandise'>
-                                Our Merchandise
+                            <Nav.Link as={Link} to="https://www.facebook.com/LingKingFishing">
+                                Order Fish
                             </Nav.Link>
                         </Nav>
                     </NavbarCollapse>

@@ -9,10 +9,7 @@
 
 .logo {
     margin: 30px;
-    width: 350px;
-    border: black;
-    border-style: double;
-    background: lightblue;
+    width: 300px;
 }
 
 .nav-container {
@@ -38,6 +35,8 @@
 
 
 @media screen and (max-width: 757px) {
+    
+    
     .nav-container {
         margin-top: auto;
         margin-bottom: 30px;

@@ -113,6 +113,11 @@
     .about-family {
         width: 100%;
     }
+
+    .about-header {
+        border-left: #1C3041;
+        border-left-style: solid;
+    }
 }
 
 @media screen and (max-width: 412px) {
@@ -130,8 +135,6 @@
         margin-top: -5px;
         margin-left: 0px;
         width: 100%;
-        border-left: #1C3041;
-        border-left-style: solid;
     }
 
     .about-us-p {

@@ -1,7 +1,7 @@
 import React from "react";
 import Slideshow from "../components/Slideshow";
-import '../assets/Homepage.css';
-import '../assets/Slideshow.css';
+import '../assets/css/Homepage.css';
+import '../assets/css/Slideshow.css';
 import boatimg1 from '../assets/img/boatImg1.jpg';
 import boatimg2 from '../assets/img/boatImg2.jpg';
 import boatimg3 from '../assets/img/boatImg3.jpg';

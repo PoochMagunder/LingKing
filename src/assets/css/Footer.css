@@ -11,12 +11,14 @@
 
 .links-container {
     text-align: center;
-    padding: 20px 50px;
+    padding: 30px;
 }
 
 p {
     font-size: large;
     color: darkgrey;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 a.link {
